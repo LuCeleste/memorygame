@@ -1,0 +1,40 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 450px;
+  max-width: 650px;
+  background-color: #795aaa;
+  box-shadow: 19px 13px 17px 1px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  border-radius: 2em;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 150px;
+  max-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2em;
+  margin: 5px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #795aaa;
+  justify-content: center;
+  font-family: "Orelega One", cursive;
+  background-color: #d4c2f1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
